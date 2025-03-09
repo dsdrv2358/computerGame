@@ -138,7 +138,7 @@ const App = () => {
             onResponderGrant={(event) => handleClick(event, computerId)} // Handle click
           >
             <ImageBackground
-              source={require('./assets/computer.png')} // Use your image as the button background
+              source={require('./assets/computer.png')}
               style={styles.buttonImageBackground}
             >
               <Text style={styles.computerNumber}>{computerId}</Text>
